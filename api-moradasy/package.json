@@ -1,0 +1,23 @@
+{
+  "name": "api-moradasy",
+  "version": "1.0.0",
+  "description": "la primer api del proyecto moradasy",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "kevin quintero",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "nodemon": "^3.1.4"
+  }
+}
