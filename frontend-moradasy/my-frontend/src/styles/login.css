@@ -1,0 +1,170 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ 
+}
+
+
+.texto-especial{
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    border: 0px;
+  
+}
+
+.logo, .inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 40%;
+    
+}
+
+.logo img{
+width: 50%;
+border-radius: 50%;
+}
+
+.inputs{
+    align-items: flex-start;
+    flex-direction: column;
+    width: 70%;
+    padding: 3%;
+    padding-bottom: 20px;
+    margin:  0px;
+    gap: 30px;
+ 
+}
+
+input{
+    background-color: #E0DEDE;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+    border: 0px;
+    
+
+}
+
+input:hover{
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px rgba(166, 9, 180, 0.3); 
+    
+}
+
+input::placeholder{
+    color: black;
+}
+
+button, input{
+
+    padding: 15px;
+    border-radius: 30px;
+    width: 70%;
+    margin: 10px;
+    font-size: 16px;
+    padding-left: 100px;
+    cursor: pointer;
+    
+}
+
+button{
+    text-align: center;
+    padding-left: 0;
+    font-size: 30px;
+    background-color: #2F1048;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 100;
+ 
+}
+
+h1{
+    font-size: 50px;
+    margin: 0;
+    color: #B666BD;
+}
+
+a{
+    padding-left: 50px;
+    color: #2F1048;
+}
+
+.message {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffdddd;
+    color: #d8000c;
+    text-align: center;
+}
+
+
+.success-message {
+    color: rgb(147, 211, 147);
+    font-weight: bold; 
+    text-align: center; 
+    margin-top: 15px; 
+    background-color: rgb(3, 73, 40);
+    padding: 40px;
+    border-radius: 30px;
+  }
+  
+  .error-message {
+    color: rgb(243, 243, 243);
+    font-weight: bold; 
+    text-align: center; 
+    margin-top: 15px; 
+    background-color: rgb(126, 9, 9);
+    padding: 40px;
+    border-radius: 30px; 
+  }
+  
+
+
+
+    @media (max-width: 900px) {
+
+        body{
+            flex-direction: column;
+        }
+
+        .logo {
+            width: 100%;
+        }
+    
+        .inputs {
+            width: 100%;
+            align-items: center;
+            
+        }
+    
+        img {
+            width: 100%;
+            border-radius: 50%;
+        }
+    
+        h1 {
+            font-size: 50px;
+        }
+    
+        button, input {
+            font-size: 24px;
+            width: 90%;
+            text-align: center;
+            padding: 30px 0px;
+            margin: 0px;
+        }
+    }
+    
